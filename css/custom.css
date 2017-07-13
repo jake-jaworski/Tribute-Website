@@ -1,0 +1,20 @@
+/* Blackhawks Font */
+@font-face {
+    font-family: 'BlaxSlabXXL';
+    src: url('../fonts/BlaxSlabXXL.eot'), url('../fonts/BlaxSlabXXL.ttf') format('truetype'), url('../fonts/BlaxSlabXXL.svg') format('svg'), url("../fonts/BlaxSlabXXL.woff") format('woff'),  url("../fonts/BlaxSlabXXL.woff2") format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.navbar-custom {
+  font-family: 'BlaxSlabXXL';
+  background-color: #2C2A29;
+  color: #FFFFFF;
+}
+
+.navbar-text {
+  font-family: 'BlaxSlabXXL';
+  font-size: 5.0em;
+  color: #FFFFFF;
+
+}
