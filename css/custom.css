@@ -1,20 +1,68 @@
-/* Blackhawks Font */
-@font-face {
-    font-family: 'BlaxSlabXXL';
-    src: url('../fonts/BlaxSlabXXL.eot'), url('../fonts/BlaxSlabXXL.ttf') format('truetype'), url('../fonts/BlaxSlabXXL.svg') format('svg'), url("../fonts/BlaxSlabXXL.woff") format('woff'),  url("../fonts/BlaxSlabXXL.woff2") format('woff2');
-    font-weight: normal;
-    font-style: normal;
+.navbar {
+  margin-bottom: 0vw;
+  border-bottom: 0;
 }
 
 .navbar-custom {
-  font-family: 'BlaxSlabXXL';
+  font-family: 'Titillium Web', sans-serif;
   background-color: #2C2A29;
   color: #FFFFFF;
+  padding-top: -0.5em;
+  padding-bottom: -0.5em;
 }
 
 .navbar-text {
-  font-family: 'BlaxSlabXXL';
-  font-size: 5.0em;
-  color: #FFFFFF;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 2.0em;
+  color: #FFFFFF !important;
+  padding-top: -1.0vw;
+  padding-bottom: -1.0vw;
+}
 
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FFFFFF;
+    color: #2C2A29;
+    border-bottom: none;
+}
+
+a:hover {
+  background-color: transparent;
+  text-decoration: none;
+  color: #C8102E !important;
+}
+
+#quote-background {
+  background-image: url(../img/home.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  margin-top: 0vw;
+  margin-bottom: 0vw;
+  height: 1080px;
+}
+
+#facts-background {
+  background-color: #2C2A29;
+  margin: 0vw;
+}
+
+h1 {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 3.0vw;
+  color: #FFFFFF;
+  padding-top: 40.0vw;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+
+  color: #FFFFFF;
+  font-style: italic;
+  font-size: 7.0vw
+}
+
+h3 {
+  font-family: 'Titillium Web', sans-serif;
+  color: #FFFFFF;
+  font-style: italic;
+  font-size: 5.0vw;
 }
