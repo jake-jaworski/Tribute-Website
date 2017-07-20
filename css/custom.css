@@ -1,6 +1,14 @@
+html {
+  background: url(../img/home.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .navbar {
   margin-bottom: 0vw;
-  border-bottom: 0;
+  border-bottom: 0vw;
 }
 
 .navbar-custom {
@@ -25,24 +33,44 @@
     border-bottom: none;
 }
 
+a {
+  color: #2C2A29;
+}
+
 a:hover {
   background-color: transparent;
   text-decoration: none;
   color: #C8102E !important;
 }
 
+p a:hover {
+  background-color: transparent;
+  text-decoration: none;
+  color: #FFFFFF !important;
+}
+
 #quote-background {
   background-image: url(../img/home.jpg);
-  background-size: 100% auto;
+  background-size: cover;
   background-repeat: no-repeat;
-  margin-top: 0vw;
-  margin-bottom: 0vw;
-  height: 1080px;
+  height: auto;
+  width: auto;
 }
 
 #facts-background {
   background-color: #2C2A29;
   margin: 0vw;
+}
+
+#wiki-background {
+  background-color: #C8102E;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+}
+
+#roster-bg {
+  background-color: #C8102E;
+
 }
 
 h1 {
@@ -52,17 +80,30 @@ h1 {
   padding-top: 40.0vw;
 }
 
-h2 {
+#red-text {
   font-family: 'Open Sans', sans-serif;
-
-  color: #FFFFFF;
+  color: #C8102E;
   font-style: italic;
-  font-size: 7.0vw
+  font-size: 7.0vw;
+  text-align: center;
 }
 
-h3 {
+#wht-txt {
   font-family: 'Titillium Web', sans-serif;
   color: #FFFFFF;
   font-style: italic;
   font-size: 5.0vw;
+  text-align: center;
+}
+
+#wht-txt-alt {
+  font-family: 'Open Sans', sans-serif;
+  color: #FFFFFF;
+  font-style: italic;
+  text-align: center;
+}
+
+p {
+  color: #FFFFFF;
+  font-family: 'Titillium Web', sans-serif;
 }
