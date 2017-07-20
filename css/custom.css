@@ -107,3 +107,8 @@ p {
   color: #FFFFFF;
   font-family: 'Titillium Web', sans-serif;
 }
+
+.pad-0 {
+  padding-left: 0vw;
+  padding-right: 0vw;
+}
