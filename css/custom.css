@@ -70,7 +70,6 @@ p a:hover {
 
 #roster-bg {
   background-color: #C8102E;
-
 }
 
 h1 {
@@ -103,12 +102,31 @@ h1 {
   text-align: center;
 }
 
+div ol h3 {
+  text-decoration: underline;
+}
+
+div ul h3 {
+  text-decoration: underline;
+}
+
 p {
   color: #FFFFFF;
   font-family: 'Titillium Web', sans-serif;
 }
 
+li {
+   white-space: nowrap;
+}
+
 .pad-0 {
   padding-left: 0vw;
   padding-right: 0vw;
+}
+
+#list-txt {
+  font-family: 'Titillium Web', sans-serif;
+  color: #FFFFFF;
+  font-size: 1.5vw;
+  text-align: center;
 }
