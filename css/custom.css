@@ -32,6 +32,11 @@
     border-bottom: none;
 }
 
+.pad-0 {
+  padding-left: 0vw;
+  padding-right: 0vw;
+}
+
 a {
   color: #2C2A29;
 }
@@ -66,7 +71,7 @@ p a:hover {
   background-color: #C8102E;
   padding-top: 1vw;
   padding-bottom: 1vw;
-  font-size: 1vw;
+  font-size: 0.75em;
 }
 
 #roster-bg {
@@ -78,14 +83,7 @@ p a:hover {
   background-color: #2C2A29;
   padding-top: 1vw;
   padding-bottom: 1vw;
-  font-size: 1vw;
-}
-
-h1 {
-  font-family: 'Titillium Web', sans-serif;
-  font-size: 3.0vw;
-  color: #FFFFFF;
-  padding-top: 40.0vw;
+  font-size: 1em;
 }
 
 #red-text {
@@ -100,7 +98,7 @@ h1 {
   font-family: 'Titillium Web', sans-serif;
   color: #FFFFFF;
   font-style: italic;
-  font-size: 5.0vw;
+  font-size: 3.0em;
   text-align: center;
 }
 
@@ -109,6 +107,27 @@ h1 {
   color: #FFFFFF;
   font-style: italic;
   text-align: center;
+}
+
+#list-txt {
+  font-family: 'Titillium Web', sans-serif;
+  color: #FFFFFF;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+#about-txt {
+  padding-top: 4vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  font-size: 1.5em;
+}
+
+h1 {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 3.0vw;
+  color: #FFFFFF;
+  padding-top: 40.0vw;
 }
 
 div ol h3 {
@@ -126,23 +145,4 @@ p {
 
 li {
    white-space: nowrap;
-}
-
-#about-txt {
-  padding-top: 2vw;
-  padding-left: 5vw;
-  padding-right: 5vw;
-  font-size: 2vw;
-}
-
-.pad-0 {
-  padding-left: 0vw;
-  padding-right: 0vw;
-}
-
-#list-txt {
-  font-family: 'Titillium Web', sans-serif;
-  color: #FFFFFF;
-  font-size: 1.5vw;
-  text-align: center;
 }
