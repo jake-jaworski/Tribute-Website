@@ -1,14 +1,13 @@
-html {
-  background: url(../img/home.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
 .navbar {
   margin-bottom: 0vw;
   border-bottom: 0vw;
+  min-height:3vw !important;
+}
+
+.navbar-nav > li > a, .navbar-brand {
+    padding-top:0.5vw !important;
+    padding-bottom:0 !important;
+    height: 3vw;
 }
 
 .navbar-custom {
@@ -60,16 +59,26 @@ p a:hover {
 #facts-background {
   background-color: #2C2A29;
   margin: 0vw;
+  padding-bottom: 1vw;
 }
 
 #wiki-background {
   background-color: #C8102E;
   padding-top: 1vw;
   padding-bottom: 1vw;
+  font-size: 1vw;
 }
 
 #roster-bg {
   background-color: #C8102E;
+  margin-bottom: 0vw;
+}
+
+#update-bg {
+  background-color: #2C2A29;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  font-size: 1vw;
 }
 
 h1 {
@@ -117,6 +126,13 @@ p {
 
 li {
    white-space: nowrap;
+}
+
+#about-txt {
+  padding-top: 2vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  font-size: 2vw;
 }
 
 .pad-0 {
